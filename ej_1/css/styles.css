@@ -74,13 +74,42 @@ body {
     width: 288px;
 }
 
-#searchBar{
-    width: 576px;
-    height: 37.6px;
+#searchBar_container{
+    width: 582px;
+    height: 46px;
     border-radius: 50px;
     border-color: lightgray;
     border-width: 1px;
     border-style: solid;
+    display: flex;
+    align-items: center;
+}
+
+#searchBar {
+    outline: none;
+    border: 0px solid green;
+    height: 30;
+    width: 440px;
+    font-size: 15px;
+}
+
+#searchBar_lupa {
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#searchBar_micro {
+    width: 24px;
+    height: 24px;
+    margin-left: 17px;
+}
+
+#searchBar_camera {
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
 }
 
 #main_container_btnGroup {
