@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #151515;
+}
+
+#navbar {
+    background: rgb(4,4,4);
+    background: linear-gradient(180deg, rgba(4,4,4,1) 0%, rgba(255,255,255,0) 100%);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+#navbar_right {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#container {
+    width: 100%;
+    height: 88.3vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#netflix_logo {
+    padding-left: 20px;
+    height: 80px;
+}
+
+#navbar p {
+    color: rgb(163, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    text-align: center;
+
+}
+
+#navbar p:hover {
+    color: white;
+}
+
+#lupa, #present, #avatar, #bell {
+    height: 25px;
+    fill: white;
+    justify-self: flex-end;
+    margin-left: 10px;
+}
+
+#arrow {
+    height: 10px;
+    margin-left: 5px;
+}
+
+.row{
+    padding-left: 50px;
+}
+
+.thumbnails div {
+    transition: transform .2s; /* Animation */
+}
+
+.thumbnails div:hover {
+    transform: scale(1.08, 1.08);
+}
+
+.row p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#container div div {
+    width: inherit;
+    height: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#container div div div {
+    width: 360px;
+    background-color: blueviolet;
+}
+
+#one_piece{
+    background-image: url(../img/one_piece.jpe);
+    background-size: cover;
+}
+
+#shingeki_no_kyojin {
+    background-image: url(../img/shingeki_no_kyojin.jpg);
+    background-size: cover;
+}
+
+#naruto_shipuden {
+    background-image: url(../img/naruto_shipuden.jpe);
+    background-size: cover;
+}
+
+#full_metal_alchemist {
+    background-image: url(../img/full_metal_alchemist.jpg);
+    background-size: cover;
+}
+
+#evangelion {
+    background-image: url(../img/evangelion.webp);
+    background-size: cover;
+}
+
+#ttgl {
+    background-image: url(../img/ttgl.webp);
+    background-size: cover;
+}
+
+#lotr_fotr {
+    background-image: url(../img/lotr_fotr.jpg);
+    background-size: cover;
+}
+
+#lotr_tt {
+    background-image: url(../img/lotf_tt.avif);
+    background-size: cover;
+}
+
+#lotr_trotk {
+    background-image: url(../img/lotr_trotk.jpg);
+    background-size: cover;
+}
+
+
+#train_dragon {
+    background-image: url(../img/desdentao.jpg);
+    background-size: cover;
+}
+
+#cosmos {
+    background-image: url(../img/cosmos.jpg);
+    background-size: cover;
+}
+
+#snowden {
+    background-image: url(../img/snowden.jpg);
+    background-size: cover;
+}
+
+#the_social_network {
+    background-image: url(../img/social_network.webp);
+    background-size: cover;
+}
+
+#jobs {
+    background-image: url(../img/jobs.webp);
+    background-size: cover;
+}
+
+#animals {
+    background-image: url(../img/animals.jpg);
+    background-size: cover;
+}
