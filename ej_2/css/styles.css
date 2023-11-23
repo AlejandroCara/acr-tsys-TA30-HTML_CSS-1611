@@ -66,6 +66,7 @@ body {
 
 .thumbnails div {
     transition: transform .2s; /* Animation */
+    border-radius: 5px;
 }
 
 .thumbnails div:hover {
